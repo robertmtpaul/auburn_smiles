@@ -1,0 +1,43 @@
+[24-Feb-2021 03:00:12 UTC] WordPress database error Unknown column 'wp_1' in 'field list' for query SELECT wp_1
+[08-Mar-2021 03:53:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on bool in /home/shefaden/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:281
+Stack trace:
+#0 /home/shefaden/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(162): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/shefaden/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/shefaden/public_html/wp-includes/class-wp-hook.php(287): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/shefaden/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/shefaden/pu in /home/shefaden/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 281
+[08-Mar-2021 10:57:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/shefaden/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:281
+Stack trace:
+#0 /home/shefaden/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(162): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(896, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/shefaden/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/shefaden/public_html/wp-includes/class-wp-hook.php(287): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/shefaden/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /home/shefaden/pub in /home/shefaden/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 281
+[16-Mar-2021 13:16:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/shefaden/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:281
+Stack trace:
+#0 /home/shefaden/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(162): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(969, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/shefaden/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/shefaden/public_html/wp-includes/class-wp-hook.php(292): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/shefaden/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#5 /home/shefaden/pub in /home/shefaden/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 281
+[16-Mar-2021 13:31:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function is_editable_by_current_user() on bool in /home/shefaden/public_html/wp-content/plugins/elementor/includes/managers/widgets.php:305
+Stack trace:
+#0 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 /home/shefaden/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/shefaden/public_html/wp-includes/class-wp-hook.php(292): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 /home/shefaden/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/shefaden/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/shefaden/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown in /home/shefaden/public_html/wp-content/plugins/elementor/includes/managers/widgets.php on line 305
+[16-Mar-2021 23:25:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/shefaden/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:281
+Stack trace:
+#0 /home/shefaden/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(162): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(969, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/shefaden/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/shefaden/public_html/wp-includes/class-wp-hook.php(292): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/shefaden/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#5 /home/shefaden/pub in /home/shefaden/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 281

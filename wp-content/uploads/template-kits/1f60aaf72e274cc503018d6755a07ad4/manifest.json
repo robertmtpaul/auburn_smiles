@@ -1,0 +1,2208 @@
+{
+    "manifest_version": "1.0.15",
+    "title": "Dentino",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/elipso.site",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home Page",
+            "screenshot": "screenshots\/home-page.png",
+            "source": "templates\/home-page.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/home-page\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.png",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.png",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Service",
+            "screenshot": "screenshots\/single-service.png",
+            "source": "templates\/single-service.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/single-service\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Doctors",
+            "screenshot": "screenshots\/doctors.png",
+            "source": "templates\/doctors.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/doctors\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Appointment",
+            "screenshot": "screenshots\/appointment.png",
+            "source": "templates\/appointment.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/appointment\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Pricing Plans",
+            "screenshot": "screenshots\/pricing-plans.png",
+            "source": "templates\/pricing-plans.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/pricing-plans\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQs",
+            "screenshot": "screenshots\/faqs.png",
+            "source": "templates\/faqs.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/faqs\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.png",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/?elementor_library=blog",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive\/post_archive",
+                    "include\/archive\/category",
+                    "include\/archive\/post_tag",
+                    "include\/archive\/date",
+                    "include\/archive\/author",
+                    "include\/archive\/search",
+                    "include\/archive\/any_child_of_category"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: Posts Archive &amp; Categories &amp; Tags &amp; Date Archive &amp; Author Archive &amp; Search Results &amp; Any Child Category Of."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single post",
+            "screenshot": "screenshots\/single-post.png",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/?elementor_library=single-post",
+            "type": "single",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Photo Gallery",
+            "screenshot": "screenshots\/photo-gallery.png",
+            "source": "templates\/photo-gallery.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/gallery\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contacts",
+            "screenshot": "screenshots\/contacts.png",
+            "source": "templates\/contacts.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/contacts\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "404 Page",
+            "screenshot": "screenshots\/404-page.png",
+            "source": "templates\/404-page.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/?elementor_library=404-page",
+            "type": "single",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.png",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/?elementor_library=header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.png",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/?elementor_library=footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Hero Left Section",
+            "screenshot": "screenshots\/hero-left-section.png",
+            "source": "templates\/hero-left-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/hero-left-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-hero",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Hero Right Section",
+            "screenshot": "screenshots\/hero-right-section.png",
+            "source": "templates\/hero-right-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/hero-right-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-hero",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Breadcrumbs Section",
+            "screenshot": "screenshots\/breadcrumbs-section.png",
+            "source": "templates\/breadcrumbs-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/breadcrumbs-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Appointment Popup",
+            "screenshot": "screenshots\/appointment-popup.png",
+            "source": "templates\/appointment-popup.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/?elementor_library=appointment-popup",
+            "type": "popup",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-popup",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "popup",
+                "elementor_pro_conditions": [
+                    "include\/general",
+                    "exclude\/singular\/not_found404",
+                    "exclude\/archive",
+                    "exclude\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Popup\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Appointment Form Section",
+            "screenshot": "screenshots\/appointment-form-section.png",
+            "source": "templates\/appointment-form-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/appointment-form-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Clinic Benefits Section",
+            "screenshot": "screenshots\/clinic-benefits-section.png",
+            "source": "templates\/clinic-benefits-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/clinic-benefits-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-features",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About Clinic Section",
+            "screenshot": "screenshots\/about-clinic-section.png",
+            "source": "templates\/about-clinic-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/about-clinic-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-about",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Clinic Services Section",
+            "screenshot": "screenshots\/clinic-services-section.png",
+            "source": "templates\/clinic-services-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/clinic-services-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-services",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Clinic Dentist Section",
+            "screenshot": "screenshots\/clinic-dentist-section.png",
+            "source": "templates\/clinic-dentist-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/clinic-dentist-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-team",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Appointment Banner Section",
+            "screenshot": "screenshots\/appointment-banner-section.png",
+            "source": "templates\/appointment-banner-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/appointment-banner-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About Section",
+            "screenshot": "screenshots\/about-section.png",
+            "source": "templates\/about-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/about-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-about",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Pricing Plans Section",
+            "screenshot": "screenshots\/pricing-plans-section.png",
+            "source": "templates\/pricing-plans-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/pricing-plans-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-pricing",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Timetable Banner Section",
+            "screenshot": "screenshots\/timetable-banner-section.png",
+            "source": "templates\/timetable-banner-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/timetable-banner-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Patient Testimonials Section",
+            "screenshot": "screenshots\/patient-testimonials-section.png",
+            "source": "templates\/patient-testimonials-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/patient-testimonials-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-testimonial",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Enroll Procedure section",
+            "screenshot": "screenshots\/enroll-procedure-section.png",
+            "source": "templates\/enroll-procedure-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/enroll-procedure-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQs Section",
+            "screenshot": "screenshots\/faqs-section.png",
+            "source": "templates\/faqs-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/faqs-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-faq",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Counter Section",
+            "screenshot": "screenshots\/counter-section.png",
+            "source": "templates\/counter-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/counter-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Clinic Contacts Section",
+            "screenshot": "screenshots\/clinic-contacts-section.png",
+            "source": "templates\/clinic-contacts-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/clinic-contacts-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Clinic Photo Gallery Section",
+            "screenshot": "screenshots\/clinic-photo-gallery-section.png",
+            "source": "templates\/clinic-photo-gallery-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/clinic-photo-gallery-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-gallery",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Recent Posts Section",
+            "screenshot": "screenshots\/recent-posts-section.png",
+            "source": "templates\/recent-posts-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/recent-posts-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Photo Gallery Section",
+            "screenshot": "screenshots\/photo-gallery-section.png",
+            "source": "templates\/photo-gallery-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/photo-gallery-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-gallery",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Pricing List Section",
+            "screenshot": "screenshots\/pricing-list-section.png",
+            "source": "templates\/pricing-list-section.json",
+            "preview_url": "https:\/\/dentino.elipso.site\/template-kit\/pricing-list-section\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-pricing",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Envato Elements",
+            "version": "2.0.6",
+            "file": "envato-elements\/envato-elements.php",
+            "author": "Envato"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.0.6",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.0.3",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "mature-dentist-in-modern-dental-surgery-looking-at-camera.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/mature-dentist-in-modern-dental-surgery-looking-at-camera-600x406.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/hero-right-section.json",
+                    "name": "Hero Right Section"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 204323,
+            "dimensions": [
+                2000,
+                1352
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-LQDRZJ5"
+        },
+        {
+            "filename": "portrait-of-smiling-male-dentist-in-dentist-s-clinic.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/portrait-of-smiling-male-dentist-in-dentist-s-clinic-600x406.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/about-clinic-section.json",
+                    "name": "About Clinic Section"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 241846,
+            "dimensions": [
+                2000,
+                1352
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7GX2978"
+        },
+        {
+            "filename": "dental-instruments.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/dental-instruments-600x428.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/about-clinic-section.json",
+                    "name": "About Clinic Section"
+                }
+            ],
+            "filesize": 237318,
+            "dimensions": [
+                2000,
+                1428
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-LZ96T3A"
+        },
+        {
+            "filename": "happy-young-female-dentist-with-tools-over-medical-Z3WGLGH-1.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/happy-young-female-dentist-with-tools-over-medical-Z3WGLGH-1-600x401.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/appointment-banner-section.json",
+                    "name": "Appointment Banner Section"
+                }
+            ],
+            "filesize": 87467,
+            "dimensions": [
+                1920,
+                1282
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Z3WGLGH"
+        },
+        {
+            "filename": "smiling-female-dentist-in-dental-clinic.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/smiling-female-dentist-in-dental-clinic-600x401.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/appointment-banner-section.json",
+                    "name": "Appointment Banner Section"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 200329,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-WSGC6JU"
+        },
+        {
+            "filename": "professional-dentist-using-modern-technologies-in-treatment.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/professional-dentist-using-modern-technologies-in-treatment-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/clinic-services-section.json",
+                    "name": "Clinic Services Section"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 235598,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-55XGRVZ"
+        },
+        {
+            "filename": "caries-removal-procedure-children-stomatology.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/caries-removal-procedure-children-stomatology-600x401.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/clinic-services-section.json",
+                    "name": "Clinic Services Section"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 237704,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-MGEJUSN"
+        },
+        {
+            "filename": "female-dentist-with-syringe-pediatric-dentistry.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/female-dentist-with-syringe-pediatric-dentistry-600x401.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/clinic-services-section.json",
+                    "name": "Clinic Services Section"
+                }
+            ],
+            "filesize": 207266,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-BWYK3NM"
+        },
+        {
+            "filename": "female-nurse-adjusting-dental-light.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/female-nurse-adjusting-dental-light-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/clinic-services-section.json",
+                    "name": "Clinic Services Section"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 256016,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-UXK7LSP"
+        },
+        {
+            "filename": "female-dentist-consulting-patient.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/female-dentist-consulting-patient-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/clinic-services-section.json",
+                    "name": "Clinic Services Section"
+                }
+            ],
+            "filesize": 176218,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-F4L7YHN"
+        },
+        {
+            "filename": "professional-female-dentist-at-work-F7YZ6DL.png",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/professional-female-dentist-at-work-F7YZ6DL-600x730.png",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/patient-testimonials-section.json",
+                    "name": "Patient Testimonials Section"
+                }
+            ],
+            "filesize": 311068,
+            "dimensions": [
+                1000,
+                1217
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-F7YZ6DL"
+        },
+        {
+            "filename": "portrait-of-smiling-young-black-woman-with-sunlight-flare.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/portrait-of-smiling-young-black-woman-with-sunlight-flare-600x401.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/patient-testimonials-section.json",
+                    "name": "Patient Testimonials Section"
+                }
+            ],
+            "filesize": 201224,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-5UNMM9L"
+        },
+        {
+            "filename": "young-woman-at-beach.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/young-woman-at-beach-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/patient-testimonials-section.json",
+                    "name": "Patient Testimonials Section"
+                }
+            ],
+            "filesize": 271422,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-E5THG5T"
+        },
+        {
+            "filename": "thoughtful-young-woman-with-hand-on-chain-in-restaurant.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/thoughtful-young-woman-with-hand-on-chain-in-restaurant-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/patient-testimonials-section.json",
+                    "name": "Patient Testimonials Section"
+                }
+            ],
+            "filesize": 433041,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-5R8A3DH"
+        },
+        {
+            "filename": "female-doctor-standing-in-clinic-corridor-G2AQW5C-1.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/female-doctor-standing-in-clinic-corridor-G2AQW5C-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/doctors.json",
+                    "name": "Doctors"
+                },
+                {
+                    "source": "templates\/clinic-dentist-section.json",
+                    "name": "Clinic Dentist Section"
+                }
+            ],
+            "filesize": 78386,
+            "dimensions": [
+                280,
+                310
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-G2AQW5C"
+        },
+        {
+            "filename": "2.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/doctors.json",
+                    "name": "Doctors"
+                },
+                {
+                    "source": "templates\/clinic-dentist-section.json",
+                    "name": "Clinic Dentist Section"
+                }
+            ],
+            "filesize": 83631,
+            "dimensions": [
+                280,
+                310
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/"
+        },
+        {
+            "filename": "4.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/doctors.json",
+                    "name": "Doctors"
+                },
+                {
+                    "source": "templates\/clinic-dentist-section.json",
+                    "name": "Clinic Dentist Section"
+                }
+            ],
+            "filesize": 56693,
+            "dimensions": [
+                280,
+                310
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/"
+        },
+        {
+            "filename": "3.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/doctors.json",
+                    "name": "Doctors"
+                },
+                {
+                    "source": "templates\/clinic-dentist-section.json",
+                    "name": "Clinic Dentist Section"
+                }
+            ],
+            "filesize": 95137,
+            "dimensions": [
+                280,
+                310
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/"
+        },
+        {
+            "filename": "dental-tools-and-accessories-used-by-dentists-in-stomatology-office.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/dental-tools-and-accessories-used-by-dentists-in-stomatology-office-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-page.json",
+                    "name": "Home Page"
+                },
+                {
+                    "source": "templates\/enroll-procedure-section.json",
+                    "name": "Enroll Procedure section"
+                }
+            ],
+            "filesize": 183674,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-YZV3EFL"
+        },
+        {
+            "filename": "dentist-in-a-room-with-medical-equipment-on-background-.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/dentist-in-a-room-with-medical-equipment-on-background--600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/about-section.json",
+                    "name": "About Section"
+                }
+            ],
+            "filesize": 276081,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZXVQ38J"
+        },
+        {
+            "filename": "modern-metallic-dentist-tools-and-burnishers-on-a-dentist-chair.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/modern-metallic-dentist-tools-and-burnishers-on-a-dentist-chair-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/clinic-benefits-section.json",
+                    "name": "Clinic Benefits Section"
+                }
+            ],
+            "filesize": 230971,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-4Q3RUUR"
+        },
+        {
+            "filename": "Icon1.png",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/Icon1.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/clinic-benefits-section.json",
+                    "name": "Clinic Benefits Section"
+                }
+            ],
+            "filesize": 13553,
+            "dimensions": [
+                100,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "Icon2.png",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/Icon2.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/clinic-benefits-section.json",
+                    "name": "Clinic Benefits Section"
+                }
+            ],
+            "filesize": 12619,
+            "dimensions": [
+                100,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "Icon3.png",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/Icon3.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/clinic-benefits-section.json",
+                    "name": "Clinic Benefits Section"
+                }
+            ],
+            "filesize": 14128,
+            "dimensions": [
+                100,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "Icon4.png",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/Icon4.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/clinic-benefits-section.json",
+                    "name": "Clinic Benefits Section"
+                }
+            ],
+            "filesize": 13904,
+            "dimensions": [
+                100,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "close-up-of-dentist-hands-with-dental-equipment.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/close-up-of-dentist-hands-with-dental-equipment-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/clinic-benefits-section.json",
+                    "name": "Clinic Benefits Section"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 141569,
+            "dimensions": [
+                2000,
+                1334
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-8ACQEX6"
+        },
+        {
+            "filename": "tools-and-drills-in-the-dental-office-the-concept-of-health-and-beauty.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/tools-and-drills-in-the-dental-office-the-concept-of-health-and-beauty-600x401.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/clinic-benefits-section.json",
+                    "name": "Clinic Benefits Section"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 160011,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-G8PDQDN"
+        },
+        {
+            "filename": "treatment-preparations-at-dental-office.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/treatment-preparations-at-dental-office-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/clinic-photo-gallery-section.json",
+                    "name": "Clinic Photo Gallery Section"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 236692,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-DTUPCL6"
+        },
+        {
+            "filename": "doctors-workstation-in-dental-clinic.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/doctors-workstation-in-dental-clinic-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/clinic-photo-gallery-section.json",
+                    "name": "Clinic Photo Gallery Section"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 349520,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-MRS7FKK"
+        },
+        {
+            "filename": "dental-clinic-equipment.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/dental-clinic-equipment-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/clinic-photo-gallery-section.json",
+                    "name": "Clinic Photo Gallery Section"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 192604,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-3FS78LH"
+        },
+        {
+            "filename": "a-dentist-with-dental-assistant-in-modern-dental-surgery-working.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/a-dentist-with-dental-assistant-in-modern-dental-surgery-working-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/clinic-photo-gallery-section.json",
+                    "name": "Clinic Photo Gallery Section"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 277811,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-FVEF5XM"
+        },
+        {
+            "filename": "cheerful-doctor-showing-how-to-brush-teeth-using-jaw-model.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/cheerful-doctor-showing-how-to-brush-teeth-using-jaw-model-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 190727,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-C6XRA2R"
+        },
+        {
+            "filename": "a-little-girl-in-the-dentists-office-holds-a-model-GN67MHE-1.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/a-little-girl-in-the-dentists-office-holds-a-model-GN67MHE-1-600x401.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                }
+            ],
+            "filesize": 118352,
+            "dimensions": [
+                1920,
+                1282
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-GN67MHE"
+        },
+        {
+            "filename": "high-angle-view-of-dental-equipments.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/high-angle-view-of-dental-equipments-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                }
+            ],
+            "filesize": 143698,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-DCADCV8"
+        },
+        {
+            "filename": "boy-receiving-dental-treatment-by-dentist-1.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/boy-receiving-dental-treatment-by-dentist-1-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 306659,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-CYJL649"
+        },
+        {
+            "filename": "smiling-dental-assistant-in-dental-clinic.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/smiling-dental-assistant-in-dental-clinic-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 190681,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-DEWHVKZ"
+        },
+        {
+            "filename": "dental-equipment.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/dental-equipment-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 210173,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-6GENXL9"
+        },
+        {
+            "filename": "dental-assistant-in-surgical-mask-holding-dental-tools.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/dental-assistant-in-surgical-mask-holding-dental-tools-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 226759,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-VGWSX4X"
+        },
+        {
+            "filename": "a-portrait-of-dental-assistant-in-modern-dental-surgery-looking-at-camera.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/a-portrait-of-dental-assistant-in-modern-dental-surgery-looking-at-camera-600x411.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 221058,
+            "dimensions": [
+                2000,
+                1370
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-NXB84L9"
+        },
+        {
+            "filename": "little-boy-in-dental-clinic.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/little-boy-in-dental-clinic-600x401.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 225766,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-DNTPMS7"
+        },
+        {
+            "filename": "boy-receiving-dental-treatment-by-dentist.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/boy-receiving-dental-treatment-by-dentist-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 295630,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-HR2VZX7"
+        },
+        {
+            "filename": "portrait-of-female-doctor-wearing-scrubs-standing-in-hospital-corridor-holding-clipboard.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/portrait-of-female-doctor-wearing-scrubs-standing-in-hospital-corridor-holding-clipboard-600x915.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                }
+            ],
+            "filesize": 135367,
+            "dimensions": [
+                1311,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-E6N4V3T"
+        },
+        {
+            "filename": "portrait-of-mature-male-doctor-wearing-scrubs-standing-in-hospital-corridor.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/portrait-of-mature-male-doctor-wearing-scrubs-standing-in-hospital-corridor-600x915.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                }
+            ],
+            "filesize": 153347,
+            "dimensions": [
+                1311,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-XK4XAK9"
+        },
+        {
+            "filename": "5.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/doctors.json",
+                    "name": "Doctors"
+                }
+            ],
+            "filesize": 104477,
+            "dimensions": [
+                380,
+                440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/"
+        },
+        {
+            "filename": "6.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/doctors.json",
+                    "name": "Doctors"
+                }
+            ],
+            "filesize": 105363,
+            "dimensions": [
+                380,
+                440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/"
+        },
+        {
+            "filename": "tooth.png",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/tooth.png",
+            "templates": [
+                {
+                    "source": "templates\/appointment.json",
+                    "name": "Appointment"
+                },
+                {
+                    "source": "templates\/appointment-popup.json",
+                    "name": "Appointment Popup"
+                },
+                {
+                    "source": "templates\/appointment-form-section.json",
+                    "name": "Appointment Form Section"
+                }
+            ],
+            "filesize": 42204,
+            "dimensions": [
+                232,
+                250
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/tooth.png"
+        },
+        {
+            "filename": "pretty-dentist-doctor-treating-patient-in-dental-clinic.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/pretty-dentist-doctor-treating-patient-in-dental-clinic-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faqs.json",
+                    "name": "FAQs"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/timetable-banner-section.json",
+                    "name": "Timetable Banner Section"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 192999,
+            "dimensions": [
+                2000,
+                1334
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZTNBKQT"
+        },
+        {
+            "filename": "dental-assistant-holding-dental-tool.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/dental-assistant-holding-dental-tool-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single post"
+                },
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 215802,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-A96GB37"
+        },
+        {
+            "filename": "a-dentist-with-dental-assistant-in-modern-dental-surgery-working.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/09\/a-dentist-with-dental-assistant-in-modern-dental-surgery-working-600x413.jpg",
+            "templates": [
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 247553,
+            "dimensions": [
+                2000,
+                1376
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PGNGQ6H"
+        },
+        {
+            "filename": "a-portrait-of-dental-assistant-in-modern-dental-surgery-looking-at-camera.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/09\/a-portrait-of-dental-assistant-in-modern-dental-surgery-looking-at-camera-600x390.jpg",
+            "templates": [
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 188197,
+            "dimensions": [
+                2000,
+                1299
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-U8NVLPN"
+        },
+        {
+            "filename": "detail-of-hand-holding-dental-tools-in-dental-clinic-.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/09\/detail-of-hand-holding-dental-tools-in-dental-clinic--600x401.jpg",
+            "templates": [
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 223856,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-JJ5MRQY"
+        },
+        {
+            "filename": "smiling-dental-assistant-adjusting-light-smiling-dental-assistant-adjusting-light-smiling-dental-ass.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/09\/smiling-dental-assistant-adjusting-light-smiling-dental-assistant-adjusting-light-smiling-dental-ass-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 224207,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-B5HRR8W"
+        },
+        {
+            "filename": "dental-assistant-adjusting-light.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/09\/dental-assistant-adjusting-light-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 249779,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-RQ83R6S"
+        },
+        {
+            "filename": "dentist-interacting-with-young-patient-in-dental-clinic.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/dentist-interacting-with-young-patient-in-dental-clinic-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 308794,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-GKURCBM"
+        },
+        {
+            "filename": "happy-mother-teaching-her-son-how-to-bush-teeth.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/happy-mother-teaching-her-son-how-to-bush-teeth-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 216148,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PQ8BEX6"
+        },
+        {
+            "filename": "side-view-of-stomatologist-doing-his-work-in-dentist-s-clinic.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/side-view-of-stomatologist-doing-his-work-in-dentist-s-clinic-600x401.jpg",
+            "templates": [
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 278020,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-6C975UD"
+        },
+        {
+            "filename": "handsome-dentist-showing-how-to-brush-teeth-on-jaw-model.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/handsome-dentist-showing-how-to-brush-teeth-on-jaw-model-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 189375,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-T2D64F5"
+        },
+        {
+            "filename": "a-dentist-with-dental-assistant-in-modern-dental-surgery.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/a-dentist-with-dental-assistant-in-modern-dental-surgery-600x410.jpg",
+            "templates": [
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 248579,
+            "dimensions": [
+                2000,
+                1367
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-6ME25YU"
+        },
+        {
+            "filename": "boy-on-cosultation-of-pediatrician-dentist-using-dental-jaw-model.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/boy-on-cosultation-of-pediatrician-dentist-using-dental-jaw-model-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 227487,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PNGHY2Y"
+        },
+        {
+            "filename": "tools-and-drills-in-the-dental-office-the-concept-of-health-and-beauty-1.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/tools-and-drills-in-the-dental-office-the-concept-of-health-and-beauty-1-600x401.jpg",
+            "templates": [
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 145332,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-23WW7BY"
+        },
+        {
+            "filename": "dental-model-of-jaw-.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/dental-model-of-jaw--600x401.jpg",
+            "templates": [
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 150894,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-L6KYJFU"
+        },
+        {
+            "filename": "having-consultation-at-dental-room.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/having-consultation-at-dental-room-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 204412,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-V8K6RLX"
+        },
+        {
+            "filename": "young-woman-during-dental-appointment.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/young-woman-during-dental-appointment-600x401.jpg",
+            "templates": [
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 225620,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-AD92THJ"
+        },
+        {
+            "filename": "cute-toddler-boy-brushing-his-teeth-in-the-bathroom-.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/cute-toddler-boy-brushing-his-teeth-in-the-bathroom--600x399.jpg",
+            "templates": [
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 335832,
+            "dimensions": [
+                2000,
+                1331
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PF3ALBG"
+        },
+        {
+            "filename": "filling-in-medical-form.jpg",
+            "thumbnail_url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/filling-in-medical-form-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/photo-gallery.json",
+                    "name": "Photo Gallery"
+                },
+                {
+                    "source": "templates\/photo-gallery-section.json",
+                    "name": "Photo Gallery Section"
+                }
+            ],
+            "filesize": 233912,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Z2UAF6W"
+        }
+    ]
+}

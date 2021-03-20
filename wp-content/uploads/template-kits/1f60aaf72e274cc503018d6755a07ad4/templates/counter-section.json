@@ -1,0 +1,263 @@
+{
+    "version": "0.4",
+    "title": "Counter Section",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-other",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "elementor_canvas"
+    },
+    "content": [
+        {
+            "id": "2498a0ea",
+            "settings": {
+                "structure": "40",
+                "background_background": "gradient",
+                "background_color": "#0962EA",
+                "background_color_b": "#0028FF",
+                "background_gradient_angle": {
+                    "unit": "deg",
+                    "size": 340,
+                    "sizes": []
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": 0,
+                    "bottom": "100",
+                    "left": 0,
+                    "isLinked": false
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "100",
+                    "right": "0",
+                    "bottom": "100",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "margin_tablet": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": 0,
+                    "bottom": "70",
+                    "left": 0,
+                    "isLinked": false
+                },
+                "background_hover_color": "#0028FF",
+                "background_hover_color_b": "#062D92E0",
+                "background_hover_gradient_angle": {
+                    "unit": "deg",
+                    "size": 320,
+                    "sizes": []
+                },
+                "background_hover_transition": {
+                    "unit": "px",
+                    "size": "",
+                    "sizes": []
+                }
+            },
+            "elements": [
+                {
+                    "id": "104c0c4c",
+                    "settings": {
+                        "_column_size": 25,
+                        "_inline_size": null,
+                        "space_between_widgets": 0,
+                        "animation": "fadeInDown",
+                        "animation_duration": "slow"
+                    },
+                    "elements": [
+                        {
+                            "id": "26aec265",
+                            "settings": {
+                                "title": "1500",
+                                "align": "center",
+                                "title_color": "#FFFFFF",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "5",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "1bbe783d",
+                            "settings": {
+                                "title": "Health Patient",
+                                "header_size": "h5",
+                                "align": "center",
+                                "title_color": "#BECBFF",
+                                "typography_typography": "custom",
+                                "typography_font_weight": "500"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "7add2c63",
+                    "settings": {
+                        "_column_size": 25,
+                        "_inline_size": null,
+                        "space_between_widgets": 0,
+                        "animation": "fadeInDown",
+                        "animation_duration": "slow"
+                    },
+                    "elements": [
+                        {
+                            "id": "271f9b2e",
+                            "settings": {
+                                "title": "32",
+                                "align": "center",
+                                "title_color": "#FFFFFF",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "5",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "3b14825d",
+                            "settings": {
+                                "title": "Qualified Doctors",
+                                "header_size": "h5",
+                                "align": "center",
+                                "title_color": "#BECBFF",
+                                "typography_typography": "custom",
+                                "typography_font_weight": "500"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "da6c250",
+                    "settings": {
+                        "_column_size": 25,
+                        "_inline_size": null,
+                        "space_between_widgets": 0,
+                        "animation": "fadeInDown",
+                        "animation_duration": "slow"
+                    },
+                    "elements": [
+                        {
+                            "id": "a071027",
+                            "settings": {
+                                "title": "30+",
+                                "align": "center",
+                                "title_color": "#FFFFFF",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "5",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "663bc909",
+                            "settings": {
+                                "title": "Years of Expirience",
+                                "header_size": "h5",
+                                "align": "center",
+                                "title_color": "#BECBFF",
+                                "typography_typography": "custom",
+                                "typography_font_weight": "500"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "74f45f14",
+                    "settings": {
+                        "_column_size": 25,
+                        "_inline_size": null,
+                        "space_between_widgets": 0,
+                        "animation": "fadeInDown",
+                        "animation_duration": "slow"
+                    },
+                    "elements": [
+                        {
+                            "id": "47fd5c1",
+                            "settings": {
+                                "title": "10",
+                                "align": "center",
+                                "title_color": "#FFFFFF",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "5",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "29e5e59a",
+                            "settings": {
+                                "title": "Departments",
+                                "header_size": "h5",
+                                "align": "center",
+                                "title_color": "#BECBFF",
+                                "typography_typography": "custom",
+                                "typography_font_weight": "500"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}

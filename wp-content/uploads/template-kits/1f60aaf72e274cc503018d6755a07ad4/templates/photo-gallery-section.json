@@ -1,0 +1,240 @@
+{
+    "version": "0.4",
+    "title": "Photo Gallery Section",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-gallery",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "elementor_canvas"
+    },
+    "content": [
+        {
+            "id": "3f6ad2da",
+            "settings": {
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": 0,
+                    "bottom": "100",
+                    "left": 0,
+                    "isLinked": false
+                },
+                "margin_tablet": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": 0,
+                    "bottom": "70",
+                    "left": 0,
+                    "isLinked": false
+                },
+                "margin_mobile": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": 0,
+                    "bottom": "50",
+                    "left": 0,
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "31072ec",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "34b7a77d",
+                            "settings": {
+                                "galleries": [
+                                    {
+                                        "gallery_title": "New Gallery",
+                                        "_id": "6a61eff"
+                                    }
+                                ],
+                                "show_all_galleries_label": "All",
+                                "gallery": [
+                                    {
+                                        "id": 407,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/09\/a-dentist-with-dental-assistant-in-modern-dental-surgery-working.jpg"
+                                    },
+                                    {
+                                        "id": 409,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/09\/a-portrait-of-dental-assistant-in-modern-dental-surgery-looking-at-camera.jpg"
+                                    },
+                                    {
+                                        "id": 410,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/09\/detail-of-hand-holding-dental-tools-in-dental-clinic-.jpg"
+                                    },
+                                    {
+                                        "id": 411,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/09\/smiling-dental-assistant-adjusting-light-smiling-dental-assistant-adjusting-light-smiling-dental-ass.jpg"
+                                    },
+                                    {
+                                        "id": 412,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/09\/dental-assistant-adjusting-light.jpg"
+                                    },
+                                    {
+                                        "id": 314,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/dental-assistant-holding-dental-tool.jpg"
+                                    },
+                                    {
+                                        "id": 297,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/dentist-interacting-with-young-patient-in-dental-clinic.jpg"
+                                    },
+                                    {
+                                        "id": 296,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/happy-mother-teaching-her-son-how-to-bush-teeth.jpg"
+                                    },
+                                    {
+                                        "id": 295,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/side-view-of-stomatologist-doing-his-work-in-dentist-s-clinic.jpg"
+                                    },
+                                    {
+                                        "id": 294,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/handsome-dentist-showing-how-to-brush-teeth-on-jaw-model.jpg"
+                                    },
+                                    {
+                                        "id": 137,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/a-dentist-with-dental-assistant-in-modern-dental-surgery-working.jpg"
+                                    },
+                                    {
+                                        "id": 134,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/treatment-preparations-at-dental-office.jpg"
+                                    },
+                                    {
+                                        "id": 136,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/dental-clinic-equipment.jpg"
+                                    },
+                                    {
+                                        "id": 81,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/female-nurse-adjusting-dental-light.jpg"
+                                    },
+                                    {
+                                        "id": 79,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/caries-removal-procedure-children-stomatology.jpg"
+                                    },
+                                    {
+                                        "id": 78,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/professional-dentist-using-modern-technologies-in-treatment.jpg"
+                                    },
+                                    {
+                                        "id": 73,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/smiling-female-dentist-in-dental-clinic.jpg"
+                                    },
+                                    {
+                                        "id": 68,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/portrait-of-smiling-male-dentist-in-dentist-s-clinic.jpg"
+                                    },
+                                    {
+                                        "id": 171,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/dental-assistant-in-surgical-mask-holding-dental-tools.jpg"
+                                    },
+                                    {
+                                        "id": 170,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/dental-equipment.jpg"
+                                    },
+                                    {
+                                        "id": 168,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/smiling-dental-assistant-in-dental-clinic.jpg"
+                                    },
+                                    {
+                                        "id": 253,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/a-dentist-with-dental-assistant-in-modern-dental-surgery.jpg"
+                                    },
+                                    {
+                                        "id": 261,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/boy-on-cosultation-of-pediatrician-dentist-using-dental-jaw-model.jpg"
+                                    },
+                                    {
+                                        "id": 206,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/pretty-dentist-doctor-treating-patient-in-dental-clinic.jpg"
+                                    },
+                                    {
+                                        "id": 176,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/boy-receiving-dental-treatment-by-dentist-1.jpg"
+                                    },
+                                    {
+                                        "id": 174,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/boy-receiving-dental-treatment-by-dentist.jpg"
+                                    },
+                                    {
+                                        "id": 173,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/little-boy-in-dental-clinic.jpg"
+                                    },
+                                    {
+                                        "id": 172,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/a-portrait-of-dental-assistant-in-modern-dental-surgery-looking-at-camera.jpg"
+                                    },
+                                    {
+                                        "id": 135,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/doctors-workstation-in-dental-clinic.jpg"
+                                    },
+                                    {
+                                        "id": 113,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/mature-dentist-in-modern-dental-surgery-looking-at-camera.jpg"
+                                    },
+                                    {
+                                        "id": 131,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/close-up-of-dentist-hands-with-dental-equipment.jpg"
+                                    },
+                                    {
+                                        "id": 288,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/tools-and-drills-in-the-dental-office-the-concept-of-health-and-beauty-1.jpg"
+                                    },
+                                    {
+                                        "id": 289,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/dental-model-of-jaw-.jpg"
+                                    },
+                                    {
+                                        "id": 290,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/having-consultation-at-dental-room.jpg"
+                                    },
+                                    {
+                                        "id": 291,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/young-woman-during-dental-appointment.jpg"
+                                    },
+                                    {
+                                        "id": 292,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/cute-toddler-boy-brushing-his-teeth-in-the-bathroom-.jpg"
+                                    },
+                                    {
+                                        "id": 293,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/filling-in-medical-form.jpg"
+                                    },
+                                    {
+                                        "id": 130,
+                                        "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/tools-and-drills-in-the-dental-office-the-concept-of-health-and-beauty.jpg"
+                                    }
+                                ],
+                                "columns": 2,
+                                "thumbnail_image_size": "medium_large",
+                                "overlay_background_background": "classic",
+                                "overlay_background_hover_color": "#0028FF36",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "gallery_layout": "masonry"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "gallery",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}

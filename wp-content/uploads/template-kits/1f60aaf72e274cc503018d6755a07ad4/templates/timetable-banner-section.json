@@ -1,0 +1,356 @@
+{
+    "version": "0.4",
+    "title": "Timetable Banner Section",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-other",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "elementor_canvas"
+    },
+    "content": [
+        {
+            "id": "30671cfb",
+            "settings": {
+                "structure": "22",
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": 0,
+                    "bottom": "100",
+                    "left": 0,
+                    "isLinked": false
+                },
+                "gap": "wide"
+            },
+            "elements": [
+                {
+                    "id": "1c94faa7",
+                    "settings": {
+                        "_column_size": 66,
+                        "_inline_size": 60,
+                        "_inline_size_tablet": 100
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "2aa16dd6",
+                    "settings": {
+                        "_column_size": 33,
+                        "_inline_size": 39.33200000000000073896444519050419330596923828125,
+                        "content_position": "center",
+                        "background_background": "classic",
+                        "background_image": {
+                            "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/pretty-dentist-doctor-treating-patient-in-dental-clinic.jpg",
+                            "id": 206
+                        },
+                        "background_position": "center center",
+                        "background_repeat": "no-repeat",
+                        "background_size": "cover",
+                        "background_overlay_background": "classic",
+                        "background_overlay_color": "#FFFFFF",
+                        "background_overlay_opacity": {
+                            "unit": "px",
+                            "size": 0.75,
+                            "sizes": []
+                        },
+                        "border_border": "solid",
+                        "border_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "border_color": "#BECBFF",
+                        "padding": {
+                            "unit": "px",
+                            "top": "40",
+                            "right": "30",
+                            "bottom": "40",
+                            "left": "30",
+                            "isLinked": false
+                        },
+                        "_inline_size_tablet": 100,
+                        "padding_tablet": {
+                            "unit": "px",
+                            "top": "60",
+                            "right": "100",
+                            "bottom": "60",
+                            "left": "100",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "40",
+                            "right": "0",
+                            "bottom": "40",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "2f62b419",
+                            "settings": {
+                                "title": "Our Timetable",
+                                "header_size": "h4",
+                                "align": "center",
+                                "title_color": "#0028FF",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "10",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "16a482ab",
+                            "settings": {
+                                "structure": "20"
+                            },
+                            "elements": [
+                                {
+                                    "id": "7fbcbaa8",
+                                    "settings": {
+                                        "_column_size": 50,
+                                        "_inline_size": null,
+                                        "_inline_size_mobile": 50
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "65f425ac",
+                                            "settings": {
+                                                "title": "Sunday",
+                                                "header_size": "p",
+                                                "align": "left",
+                                                "title_color": "#1B262C"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "22bf2ed6",
+                                            "settings": {
+                                                "title": "Monday",
+                                                "header_size": "p",
+                                                "align": "left",
+                                                "title_color": "#1B262C"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "6e04fcc0",
+                                            "settings": {
+                                                "title": "Tuesday",
+                                                "header_size": "p",
+                                                "align": "left",
+                                                "title_color": "#1B262C"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "7e2448b",
+                                            "settings": {
+                                                "title": "Wednesday",
+                                                "header_size": "p",
+                                                "align": "left",
+                                                "title_color": "#1B262C"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "789ea63f",
+                                            "settings": {
+                                                "title": "Thursday",
+                                                "header_size": "p",
+                                                "align": "left",
+                                                "title_color": "#1B262C"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "391d03d2",
+                                            "settings": {
+                                                "title": "Friday",
+                                                "header_size": "p",
+                                                "align": "left",
+                                                "title_color": "#1B262C"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "69e4dcd5",
+                                            "settings": {
+                                                "title": "Saturday",
+                                                "header_size": "p",
+                                                "align": "left",
+                                                "title_color": "#1B262C"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "77d0277a",
+                                    "settings": {
+                                        "_column_size": 50,
+                                        "_inline_size": null,
+                                        "_inline_size_mobile": 50
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "395346c0",
+                                            "settings": {
+                                                "title": "Closed",
+                                                "header_size": "p",
+                                                "align": "right",
+                                                "title_color": "#1B262C",
+                                                "typography_typography": "custom",
+                                                "typography_font_weight": "600"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "24d26ecb",
+                                            "settings": {
+                                                "title": "8:00 am - 6:00 pm",
+                                                "header_size": "p",
+                                                "align": "right",
+                                                "title_color": "#1B262C",
+                                                "typography_typography": "custom",
+                                                "typography_font_weight": "600"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "59a079c6",
+                                            "settings": {
+                                                "title": "7:00 am - 5:00 pm",
+                                                "header_size": "p",
+                                                "align": "right",
+                                                "title_color": "#1B262C",
+                                                "typography_typography": "custom",
+                                                "typography_font_weight": "600"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "118c0b75",
+                                            "settings": {
+                                                "title": "9:00 am - 7:00 pm",
+                                                "header_size": "p",
+                                                "align": "right",
+                                                "title_color": "#1B262C",
+                                                "typography_typography": "custom",
+                                                "typography_font_weight": "600"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "19869a6e",
+                                            "settings": {
+                                                "title": "8:00 am - 6:00 pm",
+                                                "header_size": "p",
+                                                "align": "right",
+                                                "title_color": "#1B262C",
+                                                "typography_typography": "custom",
+                                                "typography_font_weight": "600"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "420e996f",
+                                            "settings": {
+                                                "title": "8:30 am - 6:00 pm",
+                                                "header_size": "p",
+                                                "align": "right",
+                                                "title_color": "#1B262C",
+                                                "typography_typography": "custom",
+                                                "typography_font_weight": "600"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "35dc7dfc",
+                                            "settings": {
+                                                "title": "9:30 am - 5:00 pm",
+                                                "header_size": "p",
+                                                "align": "right",
+                                                "title_color": "#1B262C",
+                                                "typography_typography": "custom",
+                                                "typography_font_weight": "600"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}

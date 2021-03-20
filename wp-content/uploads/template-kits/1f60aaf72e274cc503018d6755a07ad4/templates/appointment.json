@@ -1,0 +1,245 @@
+{
+    "version": "0.4",
+    "title": "Appointment",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "702065ef",
+            "settings": {
+                "background_background": "gradient",
+                "background_color": "#FFFFFF",
+                "background_color_b": "#F2F7FF",
+                "background_color_b_stop": {
+                    "unit": "%",
+                    "size": 88,
+                    "sizes": []
+                },
+                "background_gradient_angle": {
+                    "unit": "deg",
+                    "size": 0,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "100",
+                    "right": "0",
+                    "bottom": "100",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "20",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "319f0beb",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null,
+                        "space_between_widgets": 0,
+                        "background_background": "classic",
+                        "background_image": {
+                            "url": "https:\/\/dentino.elipso.site\/wp-content\/uploads\/sites\/10\/2020\/08\/tooth.png",
+                            "id": 222
+                        },
+                        "background_position": "top center",
+                        "background_repeat": "no-repeat",
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": true
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "70",
+                            "right": "0",
+                            "bottom": "70",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "40",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "b1c8ba9",
+                            "settings": {
+                                "title": "Make an<br>\nAppointment",
+                                "header_size": "h1",
+                                "align": "center",
+                                "title_color": "#1B262C",
+                                "typography_typography": "custom",
+                                "typography_font_weight": "600",
+                                "typography_line_height": {
+                                    "unit": "px",
+                                    "size": 84,
+                                    "sizes": []
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "20",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 40,
+                                    "sizes": []
+                                },
+                                "typography_line_height_mobile": {
+                                    "unit": "px",
+                                    "size": 48,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "71125b61",
+                            "settings": {
+                                "editor": "Quisque sodales nibh odio, vel accumsan odio luctus vel. Nam in lorem<br> ac sem porttitor placerat at interdum leo",
+                                "align": "center",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "40",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "75a06a3",
+                            "settings": {
+                                "form_name": "Appointment Form",
+                                "form_fields": [
+                                    {
+                                        "custom_id": "name",
+                                        "field_label": "Name",
+                                        "placeholder": "Name",
+                                        "width": "50",
+                                        "_id": "68b9ba6"
+                                    },
+                                    {
+                                        "custom_id": "email",
+                                        "field_type": "tel",
+                                        "required": "true",
+                                        "field_label": "Phone",
+                                        "placeholder": "Phone",
+                                        "width": "50",
+                                        "_id": "c232be7"
+                                    },
+                                    {
+                                        "_id": "2f0a27e",
+                                        "field_type": "select",
+                                        "field_label": "Doctor",
+                                        "field_options": "Doctor\nPolina Podolski\nSakane Miiko\nTamaki Ryushi\nOpi Watihana\nChristian Russell\nWen Yahui",
+                                        "width": "50",
+                                        "custom_id": "field_2f0a27e"
+                                    },
+                                    {
+                                        "field_type": "select",
+                                        "field_label": "Service",
+                                        "field_options": "Service\nPediatric Dentistry\nDental Implants\nTeeth Whitening\nOrthodontics\nFree Consultation\nFull Diagnostic",
+                                        "width": "50",
+                                        "custom_id": "field_82c89ba",
+                                        "_id": "82c89ba"
+                                    },
+                                    {
+                                        "_id": "173074b",
+                                        "field_type": "date",
+                                        "field_label": "Date",
+                                        "placeholder": "Date",
+                                        "width": "50",
+                                        "custom_id": "field_173074b"
+                                    },
+                                    {
+                                        "_id": "69a1499",
+                                        "field_type": "time",
+                                        "field_label": "Time",
+                                        "placeholder": "Time",
+                                        "width": "50",
+                                        "custom_id": "field_69a1499"
+                                    }
+                                ],
+                                "show_labels": "",
+                                "button_align": "center",
+                                "step_next_label": "Next",
+                                "step_previous_label": "Previous",
+                                "button_text": "Submit Request",
+                                "email_content": "[all-fields]",
+                                "email_content_2": "[all-fields]",
+                                "success_message": "The form was sent successfully.",
+                                "error_message": "An error occurred.",
+                                "required_field_message": "This field is required.",
+                                "invalid_message": "There's something wrong. The form is invalid.",
+                                "column_gap": {
+                                    "unit": "px",
+                                    "size": 20,
+                                    "sizes": []
+                                },
+                                "row_gap": {
+                                    "unit": "px",
+                                    "size": 20,
+                                    "sizes": []
+                                },
+                                "field_typography_typography": "custom",
+                                "button_align_mobile": "stretch",
+                                "_padding_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "20",
+                                    "bottom": "0",
+                                    "left": "20",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "form",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "hide_title": "yes"
+    }
+}
