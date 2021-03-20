@@ -41,3 +41,11 @@ Stack trace:
 #3 /home/shefaden/public_html/wp-includes/class-wp-hook.php(292): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
 #4 /home/shefaden/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
 #5 /home/shefaden/pub in /home/shefaden/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 281
+[20-Mar-2021 02:59:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/auburnsm/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:281
+Stack trace:
+#0 /home/auburnsm/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(162): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(896, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/auburnsm/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/auburnsm/public_html/wp-includes/class-wp-hook.php(292): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/auburnsm/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#5 /home/auburnsm/pub in /home/auburnsm/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 281
